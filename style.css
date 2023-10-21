@@ -1,0 +1,223 @@
+/* Working off from Gettysburg color scheme */
+header, section, footer, aside, nav, main, article, figure { 
+  display: block;
+}
+#wrapper {
+  border-radius:50%;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#top {
+  margin-top:36px;
+  text-align: center;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif, Calibri;
+  background-color: #17354A;
+}
+header { 
+  color: white; 
+  background-color: black;
+  background-image: url('images/mylogo.png');
+  background-repeat: no-repeat;
+  background-size: 150px;
+  padding: 40px;
+  text-align: center;
+  text-indent: 75px;
+  font-size: 32pt;
+  border-radius: 10px 10px 0 0;
+}
+nav {
+  overflow: hidden;
+  background-color: #343642;
+}
+nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li {
+  display: block;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+main { 
+  color: #17354A; 
+  background-color: #F2EBC7;
+  padding: 10px;
+}
+main { 
+  color: #17354A; 
+  background-color: #F2EBC7;
+  padding: 10px;
+}
+main table {
+  border: 1px solid black;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+main td {
+  border: 1px solid black;
+  padding: 5px;
+}
+main th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+img {
+  margin: auto;
+  display: block;
+}
+p {
+  line-height: 1.5;
+  padding-bottom: 18px;
+}
+footer { 
+  color: #348899; 
+  background-color: #343642;
+  Padding: 5px 10px;
+  font-size: 10pt;
+  font-style: italic;
+  border-radius: 0 0 10px 10px;
+}
+h1 {
+  Margin: 0;
+  Padding: 5px 10px;
+  font-size: 42pt;
+  line-height: 36pt;
+  font-weight: lighter;
+}
+h2 {
+  padding-bottom: 20px;
+  Margin: 0;
+  font-size: 28pt;
+  line-height: 22pt;
+  font-weight: bold;
+}
+h3 {
+  padding: 10px 0px 0px 0px;
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+h3::before {
+  content: "\00BB   ";
+}
+main a {
+  color: #17354A;
+}
+footer a {
+  color: #17354A;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+textarea {
+  height: 200px;
+}
+.meoutter {
+  border: 3px solid gray;
+  border-radius: 5px;
+  display: flex;
+  margin: 0px 0px 10px 0px;
+}
+.img-me {
+  padding: 24px;
+  border-radius:50%;
+  max-width: 75px;
+  height : auto;
+  margin:0;
+}
+.img-miners {
+  padding: 10px 0px 50px 0px;
+  margin: 0px;
+  text-align: left; 
+  max-width: 980px;
+}
+.assembly iframe {
+  display: block;
+  margin: auto;
+  width: 1600px;
+  height: 900px;
+}
+.hometab {
+  padding-bottom: 24px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown, .dropdown li {
+  width:215px;
+}
+.dropdown-title {
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  margin: 0;
+  text-align: center;
+}
+.dropdown-title:after {
+  content: " ▼";
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+nav a:hover, .dropdown:hover {
+  background-color: gray;
+  transition: 1s;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+}
+.card, .card img{
+  transition: 0.5s;
+  width: 100%;
+  width:300px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-body {
+  padding: 2px 16px;
+  background-color: #979C9C;
+}
+.button {
+  background-color: #343642;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px;
+}
+.button:hover {
+  background-color: gray;
+  transition: 0.5s;
+}
+.img-phoenixminer {
+  width:75%;
+}

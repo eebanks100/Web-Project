@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Getting Started: Cryptocurrency Mining</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+  <header>
+    <h1 style="font-size:40px;">The Parts of a Miner</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+      <li class="dropdown">
+        <div class="dropdown-title"><i class="fa fa-fw fa-desktop"></i> Build a Miner</div>
+        <ul class="dropdown-content">
+          <li><a href="costs.html">1) Assessing Costs</a></li>
+          <li><a href="parts.html">2) Parts Overview</a></li>
+          <li><a href="assembly.html">3) Assembly</a></li>
+          <li><a href="software.html">4) Software</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <div class="dropdown-title"><i class="fa fa-fw fa-calculator"></i> Useful Calculators</div>
+        <ul class="dropdown-content">
+          <li><a href="https://whattomine.com/" target= "_blank">WhatToMine</a></li>
+          <li><a href="https://outervision.com/power-supply-calculator" target= "_blank">Outervision</a></li>
+          <li><a href="https://minerstat.com/mining-calculator" target= "_blank">Minerstat</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <div class="dropdown-title"><i class="fa fa-fw fa-info"></i> Helpful Resources</div>
+        <ul class="dropdown-content">
+          <li><a href="https://cryptogeek.info/en/mining/miningpoolhub" target= "_blank">Setting Up Mining Pool</a></li>
+          <li><a href="https://www.bitdegree.org/crypto/tutorials/ethereum-mining" target= "_blank">Start Mining Ethereum</a></li>
+          <li><a href="https://docs.helium.com/blockchain/proof-of-coverage/" target= "_blank">Proof-of-Coverage</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="hometab"><a href="index.html">Home</a> >> Build a Miner >> Parts Overview</div>
+    <div class="parts">
+      
+    <h2>Parts Overview</h2>
+    <p>
+      A miner is basically just like any other computer but with more emphasis on a few of the parts in order for the miner to be effective once 
+      it gets int action. A more specialized version of these miners would be Application-Specific Integrated Circuits (ASIC) which sole purpose
+      is just to mine a particular coin. A miner that uses GPUs to mine has a wider range of options when it comes to what coins to mine. The trade
+      of between these GPU miners and ASICs is that ASICs can be far more powerful than GPU mining depending on what hardware you are using.
+      <br><br>Below is a brief overview of each of the parts a miner will need in order to function.
+    </p>
+    <h2>Parts List:</h2>
+    <ul>
+      <li>Motherboard</li>
+      <li>Graphics Processing Unit</li>
+      <li>PCIe Risers</li>
+      <li>Central Processing Unit</li>
+      <li>Heatsink</li>
+      <li>Memory (RAM)</li>
+      <li>Power Supply Unit</li>
+      <li>HDD/SSD</li>
+      <li>Case/Frame</li>
+    </ul>
+    
+    <h3>Mining Motherboard</h3>
+    <p>
+      There are motherboards online that are specifically designed around holding large numbers of GPUs, these can normally hold 12+ GPUs. Normally any motherboard that has
+      around 6 to 8 PCIe slots to plug your risers in is good. It is important to know what the supported CPU socket of the motherboard you are using is. If your motherboard 
+      has a AM4 socket then you need a AMD CPU compatible for a AM4 socket.
+    </p>
+    <img class="img-motherboard" src="images/img-motherboard.jpg" alt="motherboard" width="250">
+    
+    <h3>Graphics Processing Unit (GPU)</h3>
+    <p>
+      The quality and quantity of your GPUs will determine the effectiveness and profitability of the miner. As of now a GPU with less than 4 GB of video memory
+      will not be able to mine a good number of the profitable coins. It is important to find a good balance between price and power what what your motherboard is
+      capable of holding and how much power your PSU can push out. The power of a high-end GPU such as the RTX 3090 is almost like having 6 to 8 GTX 1060 6GB GPUs.
+      It is always important to get what ever GPU you are using on sites such as <b><a href="https://whattomine.com/" target= "_blank">WhatToMine</a></b> to see 
+      what the profitability of that particular GPU is when taking into consideration the current crypto market, electricity costs, etc.
+    </p>
+    <img class="img-rx580" src="images/img-rx580.jpg" alt="rx580" width="250">
+    
+    <h3>Central Processing Unit (CPU)</h3>
+    <p>
+      For Cryptocurrency mining the CPU is not as important as it use to be. Years ago when Cryptocurrency was a new idea, people would mine with the CPU and some still
+      do today especially for coins such as Monero (XMR). Normally CPU mining is not as effective as other forms of mining and is slowly becoming obsolete as the GPU
+      can do more work than the CPU for this kind of work. For a miner than utilizes GPUs, any CPU that can fit in the socket of the motherboard you are using is good 
+      enough and the quality nor performance of the CPU will be a major factor.
+    </p>
+    <img class="img-cpu" src="images/img-cpu.jpg" alt="cpu" width="250">
+    
+    <h3>Heatsink for CPU</h3>
+    <p>
+      Pretty much every computer has a heatsink for the CPU in order to keep the CPU from over heating. It is a very important part for an operational miner and it is 
+      a good idea to have one that will be small enough to not come into contact with other parts of the miner.
+    </p>
+    <img class="img-heatsink" src="images/img-heatsink.jpg" alt="heatsink" width="250">
+    
+    <h3>Power Supply Unit (PSU)</h3>
+    <p>
+      Without the PSU, how will you power your miner without destroying it? The PSU is responsible for changing the voltage up or down, converting power to direct current, 
+      regulate power for smoother outcoming voltage, and more. It is a good idea to have a PSU that can put out 1000 Watts or more if you consider using 6 or more GPUs and 
+      want to leave some room for upgrades or extra cards. It would not be a bad idea to calculate the power consumption of all of the parts you are using with some of the 
+      power consumption calculators found online such as <b><a href="https://outervision.com/power-supply-calculator" target= "_blank">Outervision</a></b>.
+    </p>
+    <img class="img-psu" src="images/img-psu.jpg" alt="psu" width="250">
+    
+    <h3>HDD/SDD</h3>
+    <p>
+      You need a hard drive or an solid state drive to download the operating system required to run the mining software. If the computer is being used primarily for mining 
+      and not for things such as gaming, video editing, and downloading large files, then a low capacity storage drive is good enough. It is even possible to create a Windows 10 
+      partition on a flashdrive using <b><a href="https://rufus.ie/en/" target= "_blank">Rufus</a></b> which is a free and open-source portable application for Microsoft Windows 
+      that can be used to format and create bootable USB flash drives.
+    </p>
+    <img class="img-ssd" src="images/img-ssd.jpg" alt="ssd" width="250">
+    
+    <h3>Case/Frame</h3>
+    <p>
+      Anywhere you can place, hold, or hang all of the parts from safely would work really. People use old pet cages, plastic containers from Walmart, and shelves to place everything 
+      but a case or frame is usually the norm. A frame would be preferable due to the fact that frames have better airflow than cases and the miner is be cooler and it may perhaps be
+      better in the long run.
+    </p>
+    <img class="img-frame" src="images/img-frame.jpg" alt="Elisha" width="250">
+    
+    <div id="top"><a href="#wrapper">Back to top</a></div>
+    </div>
+  </main>
+  <footer>
+    Copyright &copy; 2022, Elisha Ebanks<br>
+  </footer>
+  </div>
+</body>
+</html>
